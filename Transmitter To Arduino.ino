@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   // Get values for each channel
   ch1Value = readChannel(CH1, -100, 100, 0);  // readChannel je function ta ase oita call kortece input pin ch1 dia
-  ch2Value = readChannel(CH2, -100, 100, 0);  // r aksathe mapping kore nicce
+  ch2Value = readChannel(CH2, -100, 100, 0);  
   ch3Value = readChannel(CH3, -100, 100, 0);
   ch4Value = readChannel(CH4, -100, 100, 0);
   // Print to Serial Monitor
